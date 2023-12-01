@@ -1,0 +1,577 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1, h2, a, header, footer,*{font-family: 'Sora', sans-serif;}
+h1 {
+  display: none;
+}
+h3,
+h4 {
+padding-top: 30px;
+  text-align: center;
+}
+header img {
+  width: 130px;
+  margin-top: 10px;
+  margin-bottom: -90px;
+}
+.hide {
+  visibility: hidden;
+}
+td {
+  padding-left: 20px;
+  width: 150px;
+}
+.example img{
+	height: 50%;
+}
+th {
+  text-align: left;
+}
+#cafeinfo {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  background-color: seagreen;
+}
+footer {
+  padding-top: 20px;
+bottom: 1;
+  background-color: rgb(51, 51, 51);
+  color: white;
+}
+.drink img{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 50%;
+}
+
+.drink h3{
+	
+	font-weight: 800;
+	text-transform: uppercase;
+	
+}
+
+.drink p{
+	display: flex;
+	padding: 10px;
+}
+.title{
+	color: white;
+	display: flex;
+}
+
+.drink{
+
+	color: white;
+	background-color: rgb(51, 51, 51);
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+	padding-right: 2px;
+	align-items: center;
+	padding-bottom: 45px;
+	padding-top: 45px;
+
+}
+#coffees h3{
+	font-size:30px;
+}
+.example{
+	margin-bottom: 40px;
+}
+.drink span{
+	text-decoration: underline;
+	padding-left: 10px;
+	margin-right: -50px;
+}
+footer p {
+font-family: 'Sora', sans-serif;;
+  margin-top: 2px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.promo{
+	color: rgb(51, 51, 51);
+}
+#Capa_1 {
+  padding-top: 78px;
+  margin: 0 auto;
+  width: 50%;
+  max-width: 300px;
+}
+.jobs p {
+  margin-top: -230px;
+}
+.jobs,
+#careers {
+  margin: 0 auto;
+}
+
+.firstslide {
+	font-weight: bold;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  justify-content: left;
+  margin-top: 20%;
+  margin-left: 40px;
+}
+.secondslide {
+font-weight: bold;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 20%;
+  display: flex;
+  justify-content: center;
+}
+.thridslide {
+  color: white;
+  margin-top: 14%;
+  margin-left: 40%;
+  font-weight: bold;
+  font-size: 25px;
+  text-shadow: black 1px 0 10px;
+}
+figure a {
+  display: flex;
+  font-size: 30px;
+  color: seagreen;
+  font-weight: bold;
+}
+figure a:hover {
+  text-shadow: white 1px 0 10px;
+  color: black;
+  font-size: 35px;
+}
+svg {
+  margin-top: 150px;
+}
+#cafeinfo table {
+  color: black;
+}
+
+#coffees {
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 275px));
+  height: fit-content;
+  grid-gap: 1rem;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.phonetr tr,
+.phonetr th,
+.phonetr td {
+  padding-top: 20px;
+  height: 80px;
+  font-weight: bolder;
+}
+tr {
+  height: 30px;
+}
+.hours {
+  font-size: 20px;
+}
+
+.promo {
+  font-weight: 400;
+  font-size: 25px;
+  padding-bottom: 130px;
+}
+
+.promo img {
+  padding-top: 100px;
+
+  z-index: 2;
+  width: 100%;
+  height: 300px;
+}
+.promo figcaption {
+  display: flex;
+  justify-content: center;
+  margin-top: -160px;
+}
+
+#contact p {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+#coffees section {
+  margin: 0;
+}
+.drink span{
+	
+font-weight: bold;}
+#coffees img {
+  display: block;
+  width: 60%;
+  margin: 1rem auto;
+}
+
+input {
+
+  height: 2em;
+  margin: 0 auto 3rem auto;
+  font-size: 1rem;
+}
+
+form p {
+  display: flex;
+  align-items: center;
+}
+
+#cafeinfo img {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15),
+    0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease;
+}
+
+.jobs {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+
+  border: none;
+}
+#careers {
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-color: #192819;
+}
+#careers h5 {
+  margin-right: 30px;
+}
+nav a:hover {
+  color: seagreen;
+}
+
+.message {
+  display: none;
+  color: orangered;
+  font-size: 1.2em;
+  margin: 0.25em 0;
+  font-weight: bold;
+}
+
+.error {
+  font-size: 1em;
+  display: block;
+}
+
+.errorInput {
+  border: 1px solid orangered;
+}
+
+.hidden {
+  display: none;
+}
+
+.jobs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+
+  border: none;
+}
+
+strong {
+  font-weight: bold;
+}
+
+#generalcontact {
+  margin: 0 auto;
+  width: 60%;
+  max-width: 600px;
+  color: #cdcdcd;
+  padding: 30px;
+  background-color: #333333;
+}
+#generalcontact button,
+input[type="submit"] {
+  display: block;
+  margin: 1rem auto;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0.75em;
+  font-size: 1em;
+  height: auto;
+  background: black;
+}
+button,
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: seagreen;
+}
+button,
+input[type="submit"]:checked {
+  color: white;
+}
+
+input {
+	
+		
+	  
+  display: block;
+  margin: 0.25em auto;
+}
+
+input,
+textarea {
+  display: block;
+  width: calc(100% - 1.5em);
+  padding: 0.5em;
+  border: 1px solid var(--light-gray);
+  border-radius: 0;
+  outline: none;
+
+  font-size: 1.1rem;
+}
+
+input:focus,
+input:focus-within,
+input:focus-visible {
+  outline: 2px solid var(--orange);
+}
+
+fieldset {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 0.5rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+fieldset label {
+  margin: 0;
+}
+
+label {
+  display: inline-block;
+  margin: 1em 0 0 0;
+  font-size: 1.1rem;
+}
+
+form span {
+  color: orangered;
+}
+
+.required {
+  font-size: 1.5rem;
+}
+
+footer {
+  text-align: center;
+}
+#cafeinfo {
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+#cafeinfo img {
+  width: 100%;
+}
+
+textarea {
+  width: 90%;
+  height: 100px;
+  margin: 0.25em auto 0.5em auto;
+  padding: 0.5em;
+}
+
+input[type="submit"] {
+  font-size: 1.2em;
+  width: 50%;
+  margin-top: 1em;
+  padding: 0.5em;
+  border: none;
+  outline: none;
+
+  color: white;
+}
+#careers {
+  justify-content: center;
+}
+
+@media screen and (max-width: 599px) {
+  #careers h5 {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .promo figcaption {
+    margin-bottom: -30px;
+  }
+}
+@media screen and (min-width: 766px) {
+  .jobs,
+  svg {
+    width: 50%;
+  }
+  #careers h5 {
+    width: 50%;
+    margin-right: -40px;
+  }
+  .jobs {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 767px) {
+  #careers {
+    flex-direction: column;
+  }
+  #cafeinfo {
+    display: flex;
+    flex-direction: column;
+  }
+  #cafeinfo img {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+  }
+  table {
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+  #generalcontact {
+    width: 90%;
+  }
+  .square1_prev_image,
+  .square1_next_image {
+    visibility: hidden;
+  }
+  .square1_dots {
+    top: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .firstslide {
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .jobs {
+    max-width: 400px;
+  }
+  .square1_prev_image,
+  .square1_next_image {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    background: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='15.1px' height='20.3px' viewBox='0 0 15.1 20.3' enable-background='new 0 0 15.1 20.3' xml:space='preserve'%3E%3Cfilter height='200%25' id='blur' width='200%25' x='-30%25' y='-30%25'%3E%3CfeGaussianBlur in='offOut' result='blurOut' stdDeviation='2'%3E%3C/feGaussianBlur%3E%3C/filter%3E%3Crect x='0.1' y='-0.1' fill='none' width='14.7' height='19.9'/%3E%3Cg%3E%3Cpath filter='url(%23blur)' fill='%23fff' d='M3.2,9.9c0-0.3,0.1-0.5,0.3-0.8L9,3.7c0.2-0.2,0.4-0.3,0.7-0.3s0.5,0.1,0.8,0.3l0.6,0.6c0.2,0.2,0.3,0.5,0.3,0.8 s-0.1,0.5-0.3,0.7L7,9.9l4.1,4.1c0.2,0.2,0.3,0.4,0.3,0.7s-0.1,0.5-0.3,0.7L10.5,16c-0.2,0.2-0.5,0.3-0.8,0.3S9.2,16.2,8.9,16 l-5.4-5.3C3.3,10.4,3.2,10.2,3.2,9.9L3.2,9.9z'/%3E%3Cpath fill='%23000' d='M3.2,9.9c0-0.3,0.1-0.5,0.3-0.8L9,3.7c0.2-0.2,0.4-0.3,0.7-0.3s0.5,0.1,0.8,0.3l0.6,0.6c0.2,0.2,0.3,0.5,0.3,0.8 s-0.1,0.5-0.3,0.7L7,9.9l4.1,4.1c0.2,0.2,0.3,0.4,0.3,0.7s-0.1,0.5-0.3,0.7L10.5,16c-0.2,0.2-0.5,0.3-0.8,0.3S9.2,16.2,8.9,16 l-5.4-5.3C3.3,10.4,3.2,10.2,3.2,9.9L3.2,9.9z'/%3E%3C/g%3E%3C/svg%3E")
+      center no-repeat;
+    background-size: 40%;
+    color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    transform: translate(0, -50%);
+    z-index: 1000;
+
+    overflow: hidden;
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+  }
+  #coffees {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+	justify-content: center;
+    grid-row-gap: 0px;
+
+    padding-bottom: 20px;
+    margin: 0 auto;
+  }
+  h3:first-child {
+    position: relative;
+    top: 195px;
+ 
+}
+
+footer p{
+	display: unset;
+}
+  #coffees img {
+    width: 180px;
+  }
+  h4 {
+    margin-top: 50px;
+    padding-top: 20px;
+  }
+  #cafeinfo {
+    display: flex;
+    justify-content: center;
+  }
+
+  #cafeinfo img {
+    margin-left: 40px;
+    width: 400px;
+  }
+
+}
