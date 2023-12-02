@@ -53,7 +53,6 @@ h1 {
 h3,
 h4 {
 padding-top: 30px;
-  text-align: center;
 }
 header img {
   width: 130px;
@@ -70,19 +69,33 @@ td {
 .example img{
 	height: 50%;
 }
-th {
-  text-align: left;
-}
+
+
+blockquote, q {
+    quotes: none;
+    padding: 50px;
+	line-height: 25px;
+text-align: center;}
 #cafeinfo {
+	line-height: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
   padding-top: 100px;
   padding-bottom: 100px;
 
-  background-color: seagreen;
+  background-color: #5d807f;
+}
+#cafeinfo section{
+	flex-direction: column;
+	display:flex;
+align-items: center;
 }
 footer {
-  padding-top: 20px;
-bottom: 1;
-  background-color: rgb(51, 51, 51);
+	height: 100px;
+ 
+
+  background-color: #0c132e;
   color: white;
 }
 .drink img{
@@ -96,10 +109,22 @@ bottom: 1;
 	text-transform: uppercase;
 	
 }
+h3:first-child {
 
+  font-weight: 600;
+
+}
+.titlelogo{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
 .drink p{
 	display: flex;
 	padding: 10px;
+
 }
 .title{
 	color: white;
@@ -130,17 +155,19 @@ bottom: 1;
 	padding-left: 10px;
 	margin-right: -50px;
 }
+
 footer p {
+	padding-top: 42px;
 font-family: 'Sora', sans-serif;;
-  margin-top: 2px;
-  padding-top: 30px;
+ 
+ 
   padding-bottom: 30px;
 }
 .promo{
 	color: rgb(51, 51, 51);
 }
 #Capa_1 {
-  padding-top: 78px;
+  padding-top: 38px;
   margin: 0 auto;
   width: 50%;
   max-width: 300px;
@@ -152,7 +179,9 @@ font-family: 'Sora', sans-serif;;
 #careers {
   margin: 0 auto;
 }
-
+.titlelogo{
+  font-size: 40px;
+}
 .firstslide {
 	font-weight: bold;
   font-size: 30px;
@@ -182,7 +211,7 @@ font-weight: bold;
 figure a {
   display: flex;
   font-size: 30px;
-  color: seagreen;
+  color: #E2D7AB;
   font-weight: bold;
 }
 figure a:hover {
@@ -206,7 +235,14 @@ svg {
   padding: 0;
   margin: 0 auto;
 }
-
+dl {
+  color: white;
+	padding-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+	justify-content: center;
+}
 .phonetr tr,
 .phonetr th,
 .phonetr td {
@@ -229,15 +265,18 @@ tr {
 
 .promo img {
   padding-top: 100px;
-
+  opacity: 0.6;
   z-index: 2;
   width: 100%;
   height: 300px;
 }
+
 .promo figcaption {
+  font-size: 35px;
   display: flex;
   justify-content: center;
   margin-top: -160px;
+  opacity: unset;
 }
 
 #contact p {
@@ -256,7 +295,9 @@ font-weight: bold;}
   width: 60%;
   margin: 1rem auto;
 }
-
+#contact p{
+	font-size: 20px;
+}
 input {
 
   height: 2em;
@@ -270,8 +311,14 @@ form p {
 }
 
 #cafeinfo img {
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15),
-    0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
+	padding-top: 40px;
+ 
+}
+
+#cafeinfo p, #cafeinfo h4{
+	font-weight: bold;
+	text-align: center;
+  color: white;
 }
 body {
   margin: 0;
@@ -297,13 +344,15 @@ a {
   color: white;
   display: flex;
   justify-content: center;
-  background-color: #192819;
+  background-color: 	#273c50;
+  margin-bottom: 9px;
+
 }
 #careers h5 {
   margin-right: 30px;
 }
 nav a:hover {
-  color: seagreen;
+  color: #E2D7AB;
 }
 
 .message {
@@ -358,16 +407,16 @@ input[type="submit"] {
   padding: 0.75em;
   font-size: 1em;
   height: auto;
-  background: black;
+  background: #5d807f;
 }
 button,
 input[type="submit"]:hover {
   cursor: pointer;
-  background-color: seagreen;
+  background-color: #E2D7AB;
 }
 button,
 input[type="submit"]:checked {
-  color: white;
+  color: black;
 }
 
 input {
@@ -462,12 +511,26 @@ input[type="submit"] {
     margin-top: 30px;
     text-align: center;
   }
-
+  .hamburger{
+    padding-bottom: 33px;
+  }
   .promo figcaption {
     margin-bottom: -30px;
   }
 }
 @media screen and (min-width: 766px) {
+  .titlelogo{
+    width: 40%;
+    align-items: center;
+
+  }
+	#cafeinfo{
+		display: flex;
+		flex-direction: row;
+	
+	}
+	
+
   .jobs,
   svg {
     width: 50%;
@@ -489,9 +552,10 @@ input[type="submit"] {
     flex-direction: column;
   }
   #cafeinfo img {
-    margin: 0 auto;
+   
     width: 100%;
     max-width: 600px;
+	
   }
   table {
     margin-right: 20%;
@@ -521,7 +585,7 @@ input[type="submit"] {
   .square1_prev_image,
   .square1_next_image {
     position: absolute;
-    top: 50%;
+	top: 65%;
     left: 20px;
     width: 50px;
     height: 50px;
@@ -551,16 +615,17 @@ input[type="submit"] {
   h3:first-child {
     position: relative;
     top: 195px;
+    left: 31px;
+    font-weight: 600;
  
 }
 
-footer p{
-	display: unset;
-}
+
   #coffees img {
     width: 180px;
   }
   h4 {
+	display: flex;
     margin-top: 50px;
     padding-top: 20px;
   }
@@ -568,10 +633,14 @@ footer p{
     display: flex;
     justify-content: center;
   }
+  dl img{
+	display: flex;
+  }
 
   #cafeinfo img {
     margin-left: 40px;
     width: 400px;
   }
+  
 
 }
